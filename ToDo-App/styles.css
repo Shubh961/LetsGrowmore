@@ -1,0 +1,43 @@
+.app {
+    width: 50vw;
+    background-color: brown;
+    text-align: center;
+    padding: 20px 10px;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    margin-top: 20px;
+}
+
+li {
+    /* text-align: center; */
+    background-color: aqua;
+    /* width: 50vw; */
+    padding: 10px 5px;
+    /* margin: 5px 327px; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+
+}
+
+.tick {
+    font-size: 20px;
+}
+
+.text-todo {
+    font-size: 20px;
+}
+
+.strike {
+    text-decoration: line-through;
+}
